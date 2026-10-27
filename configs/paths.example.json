@@ -1,0 +1,5 @@
+{
+  "turbo_ddcm_root": "~/Turbo-DDCM",
+  "dataset_root": "/absolute/path/to/existing/png/frames",
+  "runs_root": "~/video-compression/runs"
+}

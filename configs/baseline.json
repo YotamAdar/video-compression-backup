@@ -1,0 +1,10 @@
+{
+  "codec": "turbo_baseline",
+  "model_id": "Manojb/stable-diffusion-2-1-base",
+  "T": 30,
+  "K": 16384,
+  "M": 30,
+  "seed": 88888888,
+  "float32": false,
+  "device": "cuda:0"
+}

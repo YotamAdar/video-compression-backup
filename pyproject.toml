@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "video-compression-research"
+version = "0.1.0"
+description = "Compression research with an external Turbo-DDCM baseline"
+requires-python = ">=3.10"
+# Reuse the existing turbo_ddcm environment; no dependency installation is implied.
+dependencies = []
+
+[project.scripts]
+video-compression = "video_compression.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
